@@ -5,8 +5,7 @@ interface Country {
   code: string
   iso: string
   name: string
-  flag: string
-}
+  flag: React.ReactNode}
 
 const COUNTRIES: Country[] = [
   { code: '+1',   iso: 'US', name: 'United States', flag: <USFlagIcon/> },
