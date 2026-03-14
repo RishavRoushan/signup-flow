@@ -112,22 +112,6 @@ Rather than pulling in a library (which would add significant bundle weight for 
 
 ---
 
-## Interaction & Validation States
-
-| State | Behaviour |
-|---|---|
-| Default | Grey border on all inputs |
-| Hover | Border darkens to `#9ca3af` |
-| Focus | Blue border + 3px blue glow ring |
-| Error | Red border + red glow + inline error message |
-| Success (confirm password) | Green border when both passwords match |
-| Loading | Button shows spinner, is disabled |
-| OTP error | All boxes shake, clear, and refocus on box 1 |
-| OTP filled | Box border and text turn blue |
-| Password strength | 4-segment bar updates live: Weak / Fair / Good / Strong |
-
----
-
 ## Enhancements Beyond the Figma
 
 - **Country code dropdown** — searchable list of 16 countries with emoji flags, dial codes, and keyboard accessibility. The Figma showed a static `+1` label.
